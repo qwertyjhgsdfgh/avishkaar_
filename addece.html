@@ -1,0 +1,90 @@
+<html>
+    <Head>
+        <title>page_4</title>
+        <meta charset="utf-8">
+        <style media="screen">
+            body {
+           margin: 0;
+           padding: 0;
+           font-family: sans-serif;
+           background: linear-gradient(to right, #b92b27, #1565c0)
+       
+       
+            }
+       .navbar{
+               margin-top: 20px;
+               text-align: center;
+           }
+           .button [type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid aqua;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: none;
+  cursor: pointer
+}
+       </style>
+    </Head>
+    <body>
+        <div class="button" style="float: right;margin-right:1%;"><input type="submit" class="btn submit-btn" name="user-login" onclick="openPage()" value="signout"></div>
+       <center> <div style="margin-top:3%;color:black">
+      <h1><i>ECE</i></h1></div></center>
+        <div style="float:left;margin-top:5%;margin-left: 15%; color: blueviolet;
+        text-transform: uppercase;
+        font-weight: 50">
+         <table  border="4" cellspacing="2" cellpadding="10" bgcolor="aqua" width="50%">
+            <tr> <td>   <strong> studentname</strong> 
+            </td></tr>
+             </table>
+    </div>
+    <div style="float:left;margin-top:5%;margin-left:40%; color: blueviolet;
+    text-transform: uppercase;
+    font-weight: 50">
+      <table  border="4" cellspacing="2" cellpadding="10" bgcolor="aqua" width="50%">
+        <tr> <td>   <strong>studentid</strong> 
+        </td></tr>
+         </table>
+    </div><br><br><br>
+<br><br><br><br>
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+<div style=" border: 0;
+background:#620080;
+display:inline-block;
+margin: 50px ;
+text-align: left;;
+border: 2px solid aqua;
+padding: 8% 7%;
+outline: none;
+color: white;
+border-radius: 60px">
+<em><strong>ADD NOTES:</strong></em><div class="input-group">
+    <input type="txt" name="notes" placeholder="add notes" required="pdf">
+    <span class="input-group-addon"><span class="fas fa-key"></span>
+
+ <br><hr><br>
+    <em><strong>ADD ASSIGNMENT:</strong></em><div class="input-group">
+        <input type="txt" name="assigment" placeholder="add assigment " required="pdf">
+        <span class="input-group-addon"><span class="fas fa-key"></span>
+    
+        <br><hr><br>
+        <em><strong>ADD MANUAL:</strong></em><div class="input-group">
+            <input type="txt" name="manual" placeholder="add manual " required="pdf">
+            <span class="input-group-addon"><span class="fas fa-key"></span>
+        <br>
+            <hr>
+           <br>
+            <em><strong>ADD SHORTNOTES:</strong></em><div class="input-group">
+                <tr><input type="txt" name="shortnotes" placeholder="add shortnotes " required="pdf">
+                <span class="input-group-addon"><span class="fas fa-key"></span>
+                <hr>
+                </div>
+        
+                <script src="signout.js"></script>
+    </body>
+</html>
